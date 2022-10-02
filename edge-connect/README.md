@@ -1,6 +1,6 @@
 ## Generative Image Inpainting using Edge Learning wihout a Mask
-[Presentation](https://github.com/harsh-agar/Image-Inpainting-without-Mask/blob/Image-Inpainting-with-Edge-Connect/edge-connect/Presentation__Image-Inpainting_with_Edge-Connect.pdf) 
-| [Report](https://github.com/harsh-agar/Image-Inpainting-without-Mask/blob/Image-Inpainting-with-Edge-Connect/edge-connect/Report__Image-Inpainting_with_Edge-Connect.pdf)
+[Presentation](https://github.com/harsh-agar/Image-Inpainting-without-Mask/blob/main/edge-connect/Presentation__Image-Inpainting_with_Edge-Connect.pdf) 
+| [Report](https://github.com/harsh-agar/Image-Inpainting-without-Mask/blob/main/edge-connect/Report__Image-Inpainting_with_Edge-Connect.pdf)
 
 ### Introduction:
 Deep learning approaches have resulted in considerable improvements in image inpainting during the last few years. However, having accurate masks is difficult in practice in a
@@ -9,7 +9,7 @@ variety of settings. For example, naturally occurring Image deformations are ran
 This work proposes a novel method to solve image inpainting task without the need for any explicit mask. As our network architecture, we proposed a robust pipeline. Initially, an "Autoencoder" Mask Prediction network gets an incomplete color image as input and generates masks. The resulting mask will then be used to predict the complete edge map using "Gated Convolutions". This predicted edge map as well as an incomplete color image are sent to the refinement network for Image Inpainting. As a result, semantically realistic and visually appealing image is generated. 
 
 <p align='center'>  
-  <img src='examples\2022-10-03_00h33_33.png' width='400'/>
+  <img src='edge-connect/examples/Sample_resultss.png' width='400'/>
 </p>
 (a) Input images with missing regions. The missing regions are depicted in Black. 
 
